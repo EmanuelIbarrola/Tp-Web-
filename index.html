@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html >
+	<head>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<title>Proyecto Programacion Web 1</title><!--Titulo de la pagina-->
+		<meta charset="utf-8"><!--Codificacion-->
+		<meta name="description" content="Los mejores cursos del mundo en un solo lugar!"> <!--Descripcion-->
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/index.css"><!--Enlace con hoja de estilo css-->
+		<link rel="stylesheet" href="css/home.css">
+		<script type="text/javascript" src="js/index-slider.js"></script>
+		<script type="text/javascript" src="js/index.localStore.js"></script>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="contenedor contenedor-flex">
+				<div class="logo-contenedor">
+					<h1 class="logo">ACADEMIA</h1>
+				</div>
+				<div class="buscador-contenedor">
+					<form action="" method="" id="curso" >
+						<div class="contenedor-interno">
+							<input list="cursos" name="curso" placeholder=" Buscar..." class="buscador">
+							<datalist id="cursos">
+								<option value="HTML5"/>
+								<option value="Java"/>
+								<option value="PHP"/>
+								<option value="JavaScript"/>
+								<option value=".NET"/>
+								<option value="MySQL"/>
+								<option value="CSS3"/>
+							</datalist>
+							<input type="button" class="boton-buscar">
+						
+						</div>
+					</form>
+				</div>
+				<div class="carrito-contenedor">
+					<img src="img/carro-compra.png" alt="" class="carrito">
+				</div>
+				<div  id="pts" class="pts-compras"></div>
+				<br>
+			</div>
+		</header>
+		<nav class="main-nav">
+			<div class="contenedor">
+	
+				<ul class="menu">
+					<li class="menu-item"><a href="index.html" class="menu-link menu-link-select">inicio</a></li>
+					<li class="menu-item"><a href="cursos.html" class="menu-link">cursos</a></li>
+					<li class="menu-item"><a href="calendario.html" class="menu-link">calendario</a></li>
+					<li class="menu-item"><a href="giftcard.html" class="menu-link">giftcard</a></li>
+					<li class="menu-item"><a href="contacto.html" class="menu-link">contacto</a></li>
+				</ul>
+			</div>
+			<br>
+		</nav>
+
+        <div id="ninja-slider">
+             <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="img/curso01.jpg"></a>
+                    <div class="caption">Los Mejores cursos</div>
+                </li>
+                <li>
+                    <a class="ns-img" href="img/curso02.jpg"></a>
+                    <div class="caption">Con Amplia salida Laboral</div>
+                </li>
+                <li>
+                    <a class="ns-img" href="img/curso03.jpg"></a>
+                    <div class="caption">Con la Mejor Capacitacion del Mercado</div>
+                </li>
+            </ul>
+            <div class="navsWrapper">
+                <div id="ninja-slider-prev"></div>
+                <div id="ninja-slider-next"></div>
+             </div>
+          </div>
+    </div>
+		
+		<main class="main">
+			<section class="pasos-compra">
+				<h3 class="pasos-compra-titulo">Como comprar un curso</h3>
+				<dl class="pasos">
+					<dt class="pasos-item-titulo">Paso 1</dt>
+					<dd class="pasos-item-descripcion">bla bla bla</dd>
+					<dt class="pasos-item-titulo">Paso 2</dt>
+					<dd class="pasos-item-descripcion">bla bla bla</dd>
+					<dt class="pasos-item-titulo">Paso 3</dt>
+					<dd class="pasos-item-descripcion">bla bla bla</dd>
+					<dt class="pasos-item-titulo">Paso 4</dt>
+					<dd class="pasos-item-descripcion">bla bla bla</dd>
+				</dl>
+			</section>
+			<section class="destacados">
+				<h2 class="destacados-titulo">Cursos Destacados</h2>
+				<div class="contenedor-cursos">
+					<article class="contenedor-curso">
+						<img src="img/curso001dis-web.png" alt="" class="curso-img">
+						<div class="contenedor-detalles">
+							<h2 class="curso-titulo">Diseño Web</h2>
+							<p class="curso-valor"><span class="negrita">Valor:</span> 600$</p>
+							<p class="curos-tiempo"><span class="negrita">Duracion: </span>60hs</p>
+							<div  id="comprar" class="curso-info-compra">
+								<a href="cursos/curso001DisWeb.html" class="curso-info-link">Mas Informacion</a>
+								<a href="#" class="curso-inscripcion-link">Comprar</a>
+							</div>
+						</div>
+					</article>
+					<article class="contenedor-curso">
+						<img src="img/curso002java.png" alt="" class="curso-img">
+						<div class="contenedor-detalles">
+							<h2 class="curso-titulo">Java</h2>
+							<p class="curso-valor"><span class="negrita">Valor:</span> 600$</p>
+							<p class="curos-tiempo"><span class="negrita">Duracion: </span>60hs</p>
+							<div class="curso-info-compra">
+								<a href="cursos/curso002Java.html" class="curso-info-link">Mas Informacion</a>
+								<a href="#" class="curso-inscripcion-link">Comprar</a>
+							</div>
+						</div>
+					</article>
+					<article class="contenedor-curso">
+						<img src="img/curso003int-prog.png" alt="" class="curso-img">
+						<div class="contenedor-detalles">
+							<h2 class="curso-titulo">Introduccion a la Programacion</h2>
+							<p class="curso-valor"><span class="negrita">Valor:</span> 600$</p>
+							<p class="curos-tiempo"><span class="negrita">Duracion: </span>60hs</p>
+							<div  class="curso-info-compra">
+								<a href="cursos/curso003Prog.html" class="curso-info-link" id="comprar">Mas Informacion</a>
+								<a href="#" class="curso-inscripcion-link">Comprar</a>
+
+							</div>
+						</div>
+
+					</article>
+				</div>
+			</section>
+			<section class="medios-pago">
+				<h3 class="medio-pago-titulo">Medios de Pago</h3>
+				<div class="pagos-contenedor">
+					<img src="img/visa.png" alt="" class="medio-pago-img">
+					<img src="img/mastercard.png" alt="" class="medio-pago-img">
+					<img src="img/mercadopago.png" alt="" class="medio-pago-img">
+					<img src="img/paypal.png" alt="" class="medio-pago-img">
+				</div>
+
+			</section>
+		</main>
+		<footer class="main-footer">
+			<div class="contenedor contenedor-flex">
+				<div class="columna columna-33">
+					<h2 class="columna-titulo">Integrante</h2>
+					<p class="integrante">Ibarrola Emanuel - 38.031.525</p>
+				</div>
+				<div class="columna columna-33">
+					<h2 class="columna-titulo">Menu Inferior</h2>
+				</div>
+				<div class="columna columna-33">
+					<h2 class="columna-titulo">Redes Sociales</h2>
+					<div class="contenedor-social">
+						<p class="red-social"><a href="#" class="red-social-link"><img src="img/facebook.png" alt="" class="red-social-img"><span>Facebook</span></a></p>
+						<p class="red-social"><a href="#" class="red-social-link"><img src="img/twitter.png" alt="" class="red-social-img"><span>Twitter</span></a></p>
+						<p class="red-social"><a href="#" class="red-social-link"><img src="img/instagram.png" alt="" class="red-social-img"><span>Instagram</span></a></p>
+						<p class="red-social"><a href="#" class="red-social-link"><img src="img/youtube.png" alt="" class="red-social-img"><span>Youtube</span></a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

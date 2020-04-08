@@ -1,0 +1,174 @@
+#titulo{
+  font-size: 60px;
+}
+.evento_personalizado{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.contenedor_izq{
+
+  width : 50%;
+  margin:2%;
+  text-align: center;
+
+}
+.imagen_re{
+    display: flex;
+    position: relative;
+    background-color : grey;
+    height:  100%;
+    width:  100%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.edicion{
+    padding: 10px;
+    width: 50%;
+    margin:auto;
+}
+
+/*div.bloque_titulo{
+    position : absolute;
+    top :50%;
+    transform: translate(0, -60%);
+    width: 100%;
+    text-align: center;
+}*/
+.margin_auto{
+  margin:auto;
+  color: red;
+}
+div.bloque_fecha{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: right;
+    padding: 2%;
+}
+.opciones{
+  display: inline-block;
+  margin: 3px;
+  text-align: center;
+
+}
+
+.opciones > img {
+  width: 35px;
+}
+.colores
+{
+    width: 30px;
+    height: 30px;
+}
+.border_radius{
+
+  border-radius: 50%;
+}
+.rojo_ev{
+    background: red;
+}
+.azul
+{
+background: blue;
+}
+.black
+{
+    background: black;
+}
+.amarillo
+{
+    background: yellow;
+}
+.naranja
+{
+    background: orange;
+}
+.px20{
+  display: inline-block;
+  font-size: 1.3vh;
+}
+
+.px28{
+  font-size: 1.6vh;
+}
+
+.px32{
+  font-size: 1.8vh;
+}
+
+.px48{
+  font-size: 2vh;
+}
+
+.px60{
+  font-size: 2.2vh;
+}
+.subtitulos{
+  font-size:1.8vh;
+  color: grey;
+}
+/*
+@media(max-width: 815px){
+  .evento_personalizado{
+      flex-wrap: wrap;
+  }*/
+  .edicion{
+    text-align: center;
+  }
+  .contenedor_izq{
+      width: 100%;
+  }
+  .align_center{
+    width: 100%;
+  }
+  .edicion{
+    width: 100%;
+  }
+  .imagen_re{
+      height:  40vh;
+      width:  100%;
+
+  }
+
+
+}
+
+
+/*--------Estilos Responsive--------*/
+@media screen and (min-width:480px) {
+	.vistaprevia-img {
+	width: 440px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.contenedor-giftcard {
+		display: flex;
+		width: 90%;
+		justify-content: center;
+		margin: auto;
+		margin-top: 20px;
+	}
+	
+}
+
+@media screen and (min-width:1024px) {
+	.contenedor-giftcard {
+		widows: 90%;
+	}
+}
+
+@media screen and (min-width:1366px) {
+	.contenedor-principal {
+		width: 1024px;
+		margin: auto;
+	}
+}
+
+
+
+
+

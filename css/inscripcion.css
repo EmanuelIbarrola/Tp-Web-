@@ -1,0 +1,47 @@
+#ingresar_per > ul{
+    margin :auto;
+    padding: 10px;
+}
+
+.boton_redondo{
+    border-radius: 50%;
+    width: 30px;
+    background:  #eac04a;
+    cursor: pointer;
+}
+.seccion_inscripcion{
+    margin-top: 20px;
+}
+#valor_total{
+    background: black;
+    color:white;
+    font-size: 1.4em;
+    padding: 4px;
+}
+form > div{
+    margin:10px;
+}
+.celdas{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:5px;
+    display:flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+    padding:10px 10px 10px 10px;
+
+}
+.celdas input{
+   margin:10px;
+}
+ 
+@media (max-width: 810px){
+    .celdas{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .celdas input{
+        width: 100%;
+    }
+}
